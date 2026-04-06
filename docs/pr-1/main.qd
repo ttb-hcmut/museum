@@ -1,1 +1,210 @@
+.include {bachkhoa.qd}
+.docname {TTB Museum}
+.doctype {slides}
+.autopagebreak maxdepth:{2}
+.docauthor {Le Nguyen Gia Bao}
+
+.center
+	.container margin:{0 0 0 0}
+		!(100px*_)[](./logo.svg)
+.front
+	.frontTitle {TTB Museum}
+	.frontBody
+		.frontBody
+			.frontAuthor
+				.aauthor {.docauthor}
+			.frontContacts
+				.email {bao\.le108101\@hcmut\.edu\.vn}
+		.frontBody
+			.frontAuthor
+				.aauthor {Le Cong Minh Khang}
+			.frontContacts
+				.email {khang\.lecongminh\@hcmut\.edu\.vn}
+		.frontOrigin
+			.align {center}
+				.container
+					HCMUT-VNUHCM
+			.align {center}
+				.container
+					The TTB-HCMUT Group
+	.align {center}
+		.container
+			github.com/ttb-hcmut
+
+.tableofcontents {Content} maxdepth:{1}
+
+# Introduction
+
+<<<
+
+
+## What is a museum companion?
+
+## Related systems
+
+- Smartify
+- Google Arts & Culture (AnC)
+
+Honorable mentions:
+
+- Google Maps
+
+<<<
+
+image of smartify
+
+> A quote from smartify
+
+Interesting features of smartify
+
+<<<
+
+image of AnC
+
+> A quote from AnC
+
+Interesting features of AnC
+
+## What's missing
+
+- What do all museum apps have in common?
+- Can we extract them into reusable developer components?
+  - Reduce development cost
+
+<<<
+
+.row
+	.container margin:{2cm 0 0 0}
+
+**Our contributions**
+
+.row
+	.container margin:{-1cm 0 0 3.5cm}
+		!(500px _)[Kittyo holding TTB Museum app icon](./kittyo-holds-museum.svg)
+
+## Our contributions
+
+- TTB Museum, a framework for making digital museum companioning
+  - Example presets for TTB Museum
+
+.row
+	.container margin:{-2cm 0 0 1cm}
+		...
+
+Insert image here
+
+## Our contributions
+
+.row
+	.container margin:{-1cm 0 -2cm 1cm}
+		...
+- Figma prototype
+- (Future) Example museum application in action
+
+Insert image here
+
+## Users and stakeholders
+
+- The TTB Museum framework: for developers and ITs
+- Figma prototype, example museum application: for products manager looking to adopt this framework
+
+## Scope
+
+- Museums in HCM
+  - Esp. if we prioritize: local-first, portable
+- Mobile application
+  - Android
+
+# A taste of TTB Museum
+
+.speakernote
+	reference to the line "A taste of Incremental" from Jane Street's blog post "Introduction to Incremental" <33
+
+## Design philosophy
+
+For creator
+- Little-to-no choice
+- Modular. Each museum is very egotistic, let's embrace that! <33
+
+For user
+- Standardized, to be like most museum apps
+- Native application
+- Offline
+	
+<<<
+
+For tour guide
+- Control
+
+## The standard museum user flow (SMUF)
+
+Diagram
+
+<<<
+
+- Scan QR
+- 
+
+<<<
+
+## Design system
+
+- Hierarchy
+  - Material Design (source: )
+  - First-party's design system
+
+## Templates
+
+- We designed three templates
+  - Reason: 
+
+## Template 1
+
+Art museum
+
+Based on: bảo tàng mỹ thuật thành phố hồ chí minh
+
+Color:
+Typography:
+Source:
+
+## Template 2
+
+Color:
+Typography:
+Source:
+
+## Template 3
+
+Color:
+Typography:
+Source:
+
+## Component zoo
+
+## Looks
+
+## Interactive tour
+
+<<<
+
+## Future work
+
+- Bookmark system
+- Quiz system
+- Achievement system
+
+<<<
+
+.row
+	.container margin:{-1cm 0 0 0}
+
+That's it!
+
+> This presentation was written in the Quarkdown typesetting language, decorated by TTB-HCMUT's bachkhoa.qd template. .br
+> The TTB Museum logo has the shape of a .br sponge fractal <33
+
+.row
+	.container margin:{-2.6cm 0 0 16.5cm}
+		!(300px _)[Kittyo playing with TTB Museum app icon like a yarn](./kittyo-playing-museum.svg)
 
