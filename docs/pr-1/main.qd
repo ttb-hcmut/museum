@@ -103,6 +103,8 @@ Insert image here
 
 Insert image here
 
+## Glossary
+
 ## Users and stakeholders
 
 - The TTB Museum framework: for developers and ITs
@@ -136,7 +138,9 @@ For user
 For tour guide
 - Control
 
-## The standard museum user flow (SMUF)
+## The standard museum user flow
+
+Login -> Guided tour -> Adventure tour -> End
 
 Diagram
 
@@ -185,6 +189,8 @@ Source:
 ## Looks
 
 ## Interactive tour
+
+!(400x_)[](./figma_qr.png)
 
 <<<
 
