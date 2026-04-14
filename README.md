@@ -19,6 +19,8 @@ Run tourist app on connected device
 ./gradlew appTouristAndroid:installDebug
 ```
 
+Run tour guide app on connected device
+
 ```sh
 ./gradlew appGuideAndroid:installDebug
 ```
