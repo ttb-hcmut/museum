@@ -16,23 +16,23 @@ alias gradle=./gradlew
 Run tourist app on connected device
 
 ```sh
-./gradlew appTouristAndroid:installDebug
+gradle appTouristAndroid:installDebug
 ```
 
 Run tour guide app on connected device
 
 ```sh
-./gradlew appGuideAndroid:installDebug
+gradle appGuideAndroid:installDebug
 ```
 
 Run cloud service on local network (:8080)
 
 ```sh
-./gradlew service:run
+gradle service:run
 ```
 
 Run creator app on local network (:8080)
 
 ```sh
-./gradlew appCreatorWeb:jsBrowserDevelopmentRun
+gradle appCreatorWeb:jsBrowserDevelopmentRun
 ```
