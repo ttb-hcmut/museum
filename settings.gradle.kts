@@ -15,7 +15,7 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    // repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google {
             mavenContent {
@@ -29,6 +29,6 @@ dependencyResolutionManagement {
 }
 
 include(":appTouristAndroid")
-// include(":appGuideAndroid")
+include(":appGuideAndroid")
 include(":appCreatorWeb")
 include(":service")
