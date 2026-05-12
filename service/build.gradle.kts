@@ -1,4 +1,5 @@
 plugins {
+    id("arrow-kotlin")
     alias(libs.plugins.kotlin.jvm)
     alias(libs.plugins.ktor)
 }

@@ -1,8 +1,15 @@
 rootProject.name = "Museum"
-enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+// enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
+		includeBuild("build-logic")
+		plugins {
+			id("org.jetbrains.kotlin.multiplatform.gradle.plugin") version "2.2.21"
+		}
     repositories {
+				maven("https://repo1.maven.org/maven2")
+				maven("https://mvnrepository.com/artifact")
+				maven("https://central.sonatype.com/artifact")
         google {
             content {
                 includeGroupByRegex("com\\.android.*")
@@ -17,6 +24,9 @@ pluginManagement {
 dependencyResolutionManagement {
     // repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+				maven("https://repo1.maven.org/maven2")
+				maven("https://mvnrepository.com/artifact")
+				maven("https://central.sonatype.com/artifact")
         google {
             mavenContent {
                 includeGroupAndSubgroups("androidx")
@@ -32,3 +42,4 @@ include(":appTouristAndroid")
 include(":appGuideAndroid")
 include(":appCreatorWeb")
 include(":service")
+include(":buildLogic")
