@@ -37,15 +37,17 @@
 
 ## Personal problem statement
 
-Our group of developers went to two *comic book* conventions.
+- Our group of developers went to two *comic book* conventions.
+- It is a blend between traditional conventional and artistic museum-ing.
+- Unlike a traditional museum, a convention is small-scale, is a one-time / annual / infrequent event.
 
-It is a blend between traditional conventional and artistic museum-ing.
-
-Unlike a museum, a convention is a one-time / annual event.
+(See images after this)
 
 ## HCMUT Reading Culture Day 2026
 
-.row
+## HCMUT Reading Culture Day 2026
+
+.row alignment:{center}
 	.column
 		!(400x_)[](./camera/PXL_20260416_033645759.jpg)
 	.whitespace width:{20px}
@@ -57,9 +59,34 @@ Unlike a museum, a convention is a one-time / annual event.
 
 ## HCMUT Reading Culture Day 2026
 
-.row
+.row alignment:{center}
 	.column
 		!(600x_)[](./camera/PXL_20260416_034628946.jpg)
+
+## La bande dessinée sans frontières
+
+*1er salon international de la BD d'Hô Chi Minh-Ville*
+
+## La bande dessinée sans frontières
+
+.row alignment:{center}
+	.column
+		!(400x_)[](./camera/PXL_20260404_072300991.jpg)
+	.whitespace width:{20px}
+	.column
+		!(400x_)[](./camera/PXL_20260404_065340460.jpg)
+	.whitespace width:{20px}
+	.column
+		!(400x_)[](./camera/PXL_20260404_073840514.jpg)
+
+## Bi-lingual tour
+
+.row alignment:{center}
+	.column
+		!(400x_)[](./camera/PXL_20260404_065321649.jpg)
+	.whitespace width:{20px}
+	.column
+		!(400x_)[](./camera/PXL_20260404_073339483.jpg)
 
 ## Formal problem statement
 
