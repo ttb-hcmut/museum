@@ -93,6 +93,33 @@
 - A digital museum companion for small museums, small tours, small conventions.
 - Open-source oriented.
 
+<<<
+.row
+	.container margin:{2cm 0 0 0}
+**Our contributions**
+
+.row
+	.container margin:{-1cm 0 0 3.5cm}
+		!(500px _)[Kittyo holding TTB Museum app icon](./kittyo-holds-museum.svg)
+
+## Our contributions
+
+- TTB Museum, a framework for making digital museum companioning
+  - Example presets for TTB Museum
+
+.row
+	.container margin:{-2cm 0 0 1cm}
+		...
+
+## Our contributions
+
+.row
+	.container margin:{-1cm 0 -2cm 1cm}
+		...
+- Figma prototype
+- Example museum application in action
+
+
 ## Open-source on GitHub (work-in-progress)
 
 ![](./screenshots/2026-05-13_04-50-50.png)
@@ -103,6 +130,12 @@
 - Museum creators can customize: choose from *preset*, or create their own *preset*.
 
 ## Glossary
+
+| Name         | Description |
+|--------------|-------------|
+| Tour creator | The administrator who can manage and create tours. |
+| Tour guide   | The person who will lead and guide a tour / a group of tourists. |
+| Tourist      | (guest) participant of the tour. |
 
 <<<
 
@@ -204,37 +237,14 @@ Interesting features of AnC
 
 <<<
 
-.row
-	.container margin:{2cm 0 0 0}
-
-**Our contributions**
-
-.row
-	.container margin:{-1cm 0 0 3.5cm}
-		!(500px _)[Kittyo holding TTB Museum app icon](./kittyo-holds-museum.svg)
-
-## Our contributions
-
-- TTB Museum, a framework for making digital museum companioning
-  - Example presets for TTB Museum
-
-.row
-	.container margin:{-2cm 0 0 1cm}
-		...
-
-Insert image here
-
-## Our contributions
-
-.row
-	.container margin:{-1cm 0 -2cm 1cm}
-		...
-- Figma prototype
-- (Future) Example museum application in action
-
-Insert image here
 
 ## Glossary
+
+<<<
+
+| Name | Description |
+|------|-------------|
+| on   | dsf         |
 
 ## Users and stakeholders
 
