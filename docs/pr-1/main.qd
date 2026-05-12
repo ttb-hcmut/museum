@@ -90,10 +90,8 @@
 
 ## Problem restatement
 
-- Open-source
-- A digital 
-
-## Related systems
+- A digital museum companion for small museums, small tours, small conventions.
+- Open-source oriented.
 
 ## Open-source on GitHub (work-in-progress)
 
@@ -104,13 +102,45 @@
 - Our system provides a *standard flow*.
 - Museum creators can customize: choose from *preset*, or create their own *preset*.
 
+## Glossary
+
+<<<
+
+### Types of companion
+
+- External companion: suggest locations, preview locations, book ticket
+- Internal companion: 
+
+<<<
+
+### Types of tour
+
+- Guided tour: a fixed, curated path of traveling.
+- Adventure tour: freedom!
+
+<<<
+
 ## The standard flow
+
+### Guided
+
+### Visor
 
 ## Presets
 
+<<<
+
 ### Preset 1
 
+<<<
+
 ### Preset 2
+
+## Local-first design and architecture
+
+## Arrow Kotlin
+
+*We propose Arrow Kotlin, a functional-programming-powered distribution of Kotlin.*
 
 ## What is a museum companion?
 
