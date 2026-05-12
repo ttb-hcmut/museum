@@ -1,0 +1,32 @@
+Glossary
+A tour creator is the admin who can manage and creator tours
+A tour guide is a 
+A tourist is
+
+tour routes:
+
+tour checkpoints:
+
+adventure: a tour type where tourists participate without guide
+
+tour type: there are three tour types:
+- adventure
+- guided
+
+For a guided tour, there are variants based on presentation:
+- Stepped guide. It is marked with checkpoints.
+- Paged guide. 
+
+tour design: 
+
+tour preset: a concrete tour design package that creators can apply
+
+tour template: /alias for tour preset/
+
+visor: a tool to extract information by "scanning"
+
+visage
+
+dashboard
+
+A point of interest (POI) . It is

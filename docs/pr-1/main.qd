@@ -109,7 +109,7 @@
 ### Types of companion
 
 - External companion: suggest locations, preview locations, book ticket
-- Internal companion: 
+- Internal companion: scan, numpad, direction guidance, synchronization between tour guide and tourist
 
 <<<
 
@@ -122,15 +122,42 @@
 
 ## The standard flow
 
+<<<
+
+.row alignment:{center}
+	.column
+		!(200x_)[](./figma/Tourist/FindRoom/ChooseName.png)
+	.whitespace {20px}
+	.column
+		!(200x_)[](./figma/Tourist/Tour/End.png)
+
+<<<
+
 ### Guided
 
+<<<
+
 ### Visor
+
+- The Scanner
+- The bottom-sheet
+
+<<<
+
+.row alignment:{center}
+	.column
+		!(200x_)[](./figma/Tourist/Tour/VisorScan1.png)
+	.whitespace {20px}
+	.column
+		!(200x_)[](./figma/Tourist/Tour/VisorScan2.png)
+
+<<<
 
 ## Presets
 
 <<<
 
-### Preset 1
+### Preset 1 (default)
 
 <<<
 
