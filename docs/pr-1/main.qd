@@ -139,6 +139,13 @@
 
 <<<
 
+| Name         | Description |
+|--------------|-------------|
+| Point-of-interest | A subject / any attraction related to the tour, is the tour's main focus. |
+| Tour preset | A concrete tour design package that creators can apply. |
+
+<<<
+
 ### Types of companion
 
 - External companion: suggest locations, preview locations, book ticket
@@ -159,7 +166,13 @@
 
 .row alignment:{center}
 	.column
+		!(200x_)[](./figma/Tourist/FindRoom/Scanning.png)
+	.whitespace {20px}
+	.column
 		!(200x_)[](./figma/Tourist/FindRoom/ChooseName.png)
+	.whitespace {20px}
+	.column
+		!(200x_)[](./figma/Tourist/Tour/Journey1.png)
 	.whitespace {20px}
 	.column
 		!(200x_)[](./figma/Tourist/Tour/End.png)
@@ -167,6 +180,10 @@
 <<<
 
 ### Guided
+
+.row alignment:{center}
+	.column
+		!(200x_)[](./figma/Tourist/Tour/Journey1.png)
 
 <<<
 
@@ -363,10 +380,6 @@ Source:
 ## Component zoo
 
 ## Looks
-
-## Interactive tour
-
-!(400x_)[](./figma_qr.png)
 
 <<<
 
