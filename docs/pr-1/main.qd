@@ -88,6 +88,48 @@
 	.column
 		!(400x_)[](./camera/PXL_20260404_073339483.jpg)
 
+# Related systems
+
+- Smartify
+- Google Arts & Culture (AnC)
+
+Honorable mentions:
+
+- Google Maps
+
+<<<
+
+### Smartify
+
+!(700x_)[](./misc/GuardianSmartify.png)
+
+<<<
+
+> Smartify is the ultimate cultural travel app: find places to visit near you and get audio tours to help guide your way.
+
+Interesting features of smartify
+
+<<<
+
+### Google Arts and Culture
+
+!(700x_)[](./misc/GoogleArts.png)
+
+<<<
+
+image of AnC
+
+> A quote from AnC
+
+Interesting features of AnC
+
+## What's missing
+
+- What do all museum apps have in common?
+- Can we extract them into reusable developer components?
+  - Reduce development cost
+
+
 ## Problem restatement
 
 - A digital museum companion for small museums, small tours, small conventions.
@@ -141,6 +183,13 @@
 
 | Name         | Description |
 |--------------|-------------|
+| Guided tour | There is a list of checkpoints the tour guide and tourist must go through. |
+| Open-ended tour | The tourist can go anywhere and use the Visor scanner to scan objects. |
+
+<<<
+
+| Name         | Description |
+|--------------|-------------|
 | Point-of-interest | A subject / any attraction related to the tour, is the tour's main focus. |
 | Tour preset | A concrete tour design package that creators can apply. |
 
@@ -162,6 +211,8 @@
 
 ## The standard flow
 
+Room Code -> Name -> Guided tour -> Open-ended tour -> End
+
 <<<
 
 .row alignment:{center}
@@ -175,7 +226,11 @@
 		!(200x_)[](./figma/Tourist/Tour/Journey1.png)
 	.whitespace {20px}
 	.column
+		!(200x_)[](./figma/Tourist/Tour/VisorScan2.png)
+	.whitespace {20px}
+	.column
 		!(200x_)[](./figma/Tourist/Tour/End.png)
+
 
 <<<
 
@@ -248,72 +303,27 @@
 	.column
 		!(200x_)[](./fonts/Roboto.png)
 
-## Local-first design and architecture
+## Creator UI
 
-## Arrow Kotlin
-
-*We propose Arrow Kotlin, a functional-programming-powered distribution of Kotlin.*
-
-## What is a museum companion?
-
-## Related systems
-
-- Smartify
-- Google Arts & Culture (AnC)
-
-Honorable mentions:
-
-- Google Maps
+*Admin dashboard*
 
 <<<
 
-image of smartify
+![](./figma/Creator/Presets.png)
 
-> A quote from smartify
-
-Interesting features of smartify
+## Tour guide UI
 
 <<<
 
-image of AnC
-
-> A quote from AnC
-
-Interesting features of AnC
-
-## What's missing
-
-- What do all museum apps have in common?
-- Can we extract them into reusable developer components?
-  - Reduce development cost
-
-<<<
-
-
-## Glossary
-
-<<<
-
-| Name | Description |
-|------|-------------|
-| on   | dsf         |
-
-## Users and stakeholders
-
-- The TTB Museum framework: for developers and ITs
-- Figma prototype, example museum application: for products manager looking to adopt this framework
-
-## Scope
-
-- Museums in HCM
-  - Esp. if we prioritize: local-first, portable
-- Mobile application
-  - Android
-
-# A taste of TTB Museum
-
-.speakernote
-	reference to the line "A taste of Incremental" from Jane Street's blog post "Introduction to Incremental" <33
+.row alignment:{center}
+	.column
+		!(400x_)[](./figma/Guide/LogIn.png)
+	.whitespace width:{20px}
+	.column
+		!(400x_)[](./figma/Guide/FindRoom/RoomQR.png)
+	.whitespace width:{20px}
+	.column
+		!(400x_)[](./figma/Guide/Tour/BreakPoints.png)
 
 ## Design philosophy
 
@@ -324,62 +334,20 @@ For creator
 For user
 - Standardized, to be like most museum apps
 - Native application
-- Offline
-	
-<<<
-
-For tour guide
-- Control
-
-## The standard museum user flow
-
-Login -> Guided tour -> Adventure tour -> End
-
-Diagram
-
-<<<
-
-- Scan QR
-- 
-
-<<<
+- Offline, local-first
 
 ## Design system
 
 - Hierarchy
-  - Material Design (source: )
+  - Material Design
   - First-party's design system
 
-## Templates
+## Arrow Kotlin
 
-- We designed three templates
-  - Reason: 
+*We propose Arrow Kotlin, a functional-programming-powered distribution of Kotlin.*
 
-## Template 1
-
-Art museum
-
-Based on: bảo tàng mỹ thuật thành phố hồ chí minh
-
-Color:
-Typography:
-Source:
-
-## Template 2
-
-Color:
-Typography:
-Source:
-
-## Template 3
-
-Color:
-Typography:
-Source:
-
-## Component zoo
-
-## Looks
+.speakernote
+	reference to the line "A taste of Incremental" from Jane Street's blog post "Introduction to Incremental" <33
 
 <<<
 
