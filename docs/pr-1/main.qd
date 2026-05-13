@@ -183,6 +183,9 @@
 	.whitespace {20px}
 	.column
 		!(200x_)[](./figma/Tourist/Tour/VisorScan2.png)
+	.whitespace {20px}
+	.column
+		!(200x_)[](./figma/MapOverlay2.png)
 
 <<<
 
@@ -192,9 +195,41 @@
 
 ### Preset 1 (default)
 
+.row alignment:{center}
+	.column
+		!(600x_)[](./misc/Preset1.png)
+
+<<<
+
+### Preset 1 (default)
+
+.row alignment:{center}
+	.column
+		!(500x_)[](./fonts/RammettoOne.png)
+
+.row alignment:{center}
+	.column
+		!(200x_)[](./fonts/Roboto.png)
+
 <<<
 
 ### Preset 2
+
+.row alignment:{center}
+	.column
+		!(500x_)[](./misc/Preset2.png)
+
+<<<
+
+### Preset 2
+
+.row alignment:{center}
+	.column
+		!(400x_)[](./fonts/Alexandria.png)
+
+.row alignment:{center}
+	.column
+		!(200x_)[](./fonts/Roboto.png)
 
 ## Local-first design and architecture
 
